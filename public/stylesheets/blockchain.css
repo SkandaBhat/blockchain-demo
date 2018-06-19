@@ -11,6 +11,74 @@ body {
 
 body > .container {
   padding: 60px 15px 0;
+  height: 100%;
+}
+
+nav > .container {
+      height: 100%;
+}
+
+.navbar-brand {
+  height: 64px;
+}
+
+.navbar-nav {
+  height: 64px;
+}
+.logo {
+  height: 36px;
+}
+.navbar-nav>li {
+  height: 64px;
+}
+
+.navbar-nav>li>a {
+  height: 64px;
+  padding: 22px;
+}
+
+a {
+  color: #626e75;
+}
+
+a:hover {
+  color: #626e75;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.control-label {
+  color: #626e75;
+}
+
+.input-group-addon {
+  border: none;
+}
+
+.form-control {
+      height: 34px;
+      background-color: #F9F9F9;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid transparent;
+      box-shadow: none;
+      color: #626e75;
+      outline: none;
+      font-family: "Open Sans",
+      "Helvetica Neue for IBM",
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      sans-serif;
+}
+
+nav {
+  height: 64px;
+  box-shadow: 3px 6px 15px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 .container .text-muted {
@@ -29,8 +97,32 @@ input {
   font-family: monospace;
 }
 
+.ladda-button {
+  height: 40px;
+  width: 120px;
+  border: none;
+  background: #0FB381;
+}
+
+.ladda-button:hover {
+  height: 40px;
+  width: 120px;
+  border: none;
+  background: #0FB381;
+}
+
+.well {
+  box-shadow: 3px 6px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  border: none;
+  background: #fff;
+}
+
 .well-success {
-  background: rgb(223, 240, 216);
+background: rgb(223, 249, 213);
+box-shadow: 3px 6px 15px 0 rgba(0, 0, 0, 0.2);
+border-radius: 0px;
+border: none;
 }
 
 .well-error {

@@ -45,6 +45,10 @@ if (app.get('env') === 'development') {
   });
 }
 
+app.listen(3001, function () {
+  console.log('Listening!');
+});
+
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
